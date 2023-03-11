@@ -49,7 +49,7 @@ Do{
   $objWorksheet.Cells.Item($intRow,2).Value() = $pingStatus
 
   #### Clear the cell color
-  $objWorksheet.Cells.Item($intRow,1).Interior.ColorIndex = 0
+  # $objWorksheet.Cells.Item($intRow,1).Interior.ColorIndex = 0
 
 
 #### Increment the loop   
