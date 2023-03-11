@@ -5,7 +5,7 @@ The formatting and coding practices in this template are not good. Please learn 
 
 Essentially, "DoSomethingFromExcel" is a template script designed to open a CSV or XLSX file and do some piece of work leveraging input from each row in the first column of a spreadsheet. It might be user names, computer names, IPs, or any other list of data you may be given to perform a task.
 
-Example 1 does the following things:
+Example 1 (DoSomethingFromExcel.ps1) does the following things:
   Declares a variable to store the path to the input file.
   Created the Excel application object with the option to keep it visible.
   Opens the spreadhseet and sets the starting row to 2 (to accomodate column headers).
